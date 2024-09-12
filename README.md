@@ -13,7 +13,7 @@ public class Controller1 {
     public ModelAndView showLogin() {
         return new ModelAndView("login");
     }
-
+// Awesh Edit
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public ModelAndView login(@RequestParam("username") String username, @RequestParam("password") String password) {
         // Hardcoded for simplicity; replace with database authentication in real applications
