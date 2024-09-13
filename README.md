@@ -21,6 +21,7 @@ public class Controller1 {
             ModelAndView mv = new ModelAndView("welcome");
             mv.addObject("username", username);
             return mv;
+            // Naveen edit
         } else {
             ModelAndView mv = new ModelAndView("login");
             mv.addObject("error", "Invalid username or password");
